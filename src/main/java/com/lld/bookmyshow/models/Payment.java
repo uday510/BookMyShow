@@ -5,5 +5,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Payment {
+public class Payment extends BaseModel {
+    private String referenceNumber;
+    private int amount;
+    private Booking booking;
+    private PaymentStatus paymentStatus;
+    private PaymentProvider paymentProvider;
 }

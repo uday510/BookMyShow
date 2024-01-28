@@ -5,5 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Movie {
+public class Movie extends BaseModel {
+
 }
